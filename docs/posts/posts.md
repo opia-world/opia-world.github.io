@@ -1,7 +1,7 @@
 ---
 title: Новости
-layout: post
-nav_order: 4
+layout: default
+nav_order: 4.5
 has_children: true
 ---
 
