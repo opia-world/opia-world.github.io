@@ -1,7 +1,7 @@
 ---
-title: Home
+title: Дом
 layout: default
 nav_order: 1
 ---
 
-It's opia world!
+Это opia world!
