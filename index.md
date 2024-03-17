@@ -15,7 +15,7 @@ _Перетекание мирового рынка в e-commerce_
 
 ## Поглощение мирового рынка электронной коммерцией
 
-![Absorption](/opia-world.github.io/assets/images/OW_2.png "Absorption")
+![Absorption](/assets/images/OW_2.png "Absorption")
 [Электронная коммерция как процент от общего объема розничных продаж во всем мире с 2015 по 2017 год.](https://www.statista.com/forecasts/220177/b2c-e-commerce-sales-cagr-forecast-for-selected-countries)
 
 ## Среднегодовой темп роста розничных продаж электронной коммерции (CAGR) с 2023 по 2027 год по странам
