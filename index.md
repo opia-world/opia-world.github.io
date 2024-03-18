@@ -20,5 +20,5 @@ _Перетекание мирового рынка в e-commerce_
 
 ## Среднегодовой темп роста розничных продаж электронной коммерции (CAGR) с 2023 по 2027 год по странам
 
-![Retail sales](/en/assets/images/retail_sales.webp "Retail Sales")
+![Retail sales](/assets/images/OW_3.png "Retail Sales")
 [Statista](https://www.statista.com/forecasts/220177/b2c-e-commerce-sales-cagr-forecast-for-selected-countries)
