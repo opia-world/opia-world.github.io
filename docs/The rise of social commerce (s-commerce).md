@@ -2,7 +2,7 @@
 title: Рост социальной коммерции (s-commerce)
 layout: default
 nav_order: 4
-parent: trends
+parent: Тенденции в связи с текущими проблемами
 ---
 
 # Рост социальной коммерции (s-commerce)
