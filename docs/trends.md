@@ -15,8 +15,3 @@ _Проблемы рынка e-commerce создают новые условия
 > Для сравнения, эти цифры показывают, что типичный пользователь Интернета сегодня **проводит на 30% больше времени** используя социальные сети и мессенджеры, чем просмотривая «традиционное» телевидение (т. е. вещательное и кабельное телевидения).
 
 Ознакомьтесь с подробностями ниже:
-
-- [Перетекание аудитории в мессенджеры](/opia-world.github.io/docs/Audience flow to messengers.html)
-- [Увеличение времени пребывания в мессенджерах](/opia-world.github.io/docs/Increased time spent in instant messengers.html)
-- [Замедление рынка мобильных приложений](/opia-world.github.io/docs/Slowdown of the mobile application market.html)
-- [Рост социальной коммерции (s-commerce)](/opia-world.github.io/docs/The rise of social commerce (s-commerce).html)
