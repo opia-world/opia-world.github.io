@@ -1,9 +1,9 @@
 ---
-title: О нас
+title: 🏢 О нас
 layout: default
 nav_order: 1
 ---
-<img src="/assets/images/opia_up1.png" alt="logo">
+<img src="/assets/images/opia_up_logo.png" alt="logo">
 
 
 # О нас
