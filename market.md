@@ -20,11 +20,21 @@ nav_order: 2
 ## Поглощение мирового рынка электронной коммерцией
 
 ![Absorption](/assets/images/OW_2.png "Absorption")
-[Электронная коммерция как процент от общего объема розничных продаж во всем мире с 2015 по 2017 год.](https://www.statista.com/forecasts/220177/b2c-e-commerce-sales-cagr-forecast-for-selected-countries)
+<div style="background-color: #ffcccc; padding: 10px; border-radius: 5px;">
+    <a href="https://www.statista.com/forecasts/220177/b2c-e-commerce-sales-cagr-forecast-for-selected-countries" style="color: #333; text-decoration: none; font-weight: bold;">
+        🌐 <span style="text-decoration: underline;">Источник:</span> Электронная коммерция как процент от общего объема розничных продаж во всем мире с 2015 по 2017 год.
+    </a>
+</div>
+
 
 ---
 
 ## Среднегодовой темп роста розничных продаж электронной коммерции (CAGR) с 2023 по 2027 год по странам
 
 ![Retail sales](/assets/images/OW_3.png "Retail Sales")
-[Statista](https://www.statista.com/forecasts/220177/b2c-e-commerce-sales-cagr-forecast-for-selected-countries)
+<div style="background-color: #ffcccc; padding: 10px; border-radius: 5px;">
+    <a href="https://www.statista.com/forecasts/220177/b2c-e-commerce-sales-cagr-forecast-for-selected-countries" style="color: #333; text-decoration: none; font-weight: bold;">
+        📊 <span style="text-decoration: underline;">Источник:</span> Statista
+    </a>
+</div>
+
