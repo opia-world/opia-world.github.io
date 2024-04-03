@@ -1,15 +1,15 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "research": "Исследования",
+
   "about": {
     "title": "About",
     "type": "page"
   },
   "contact": {
-    "title": "Contact ↗",
+    "title": "Контакты ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://opia-world.com",
     "newWindow": true
   }
 }
