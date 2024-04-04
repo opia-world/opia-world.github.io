@@ -1,15 +1,9 @@
 {
   "index": "Introduction",
   "research": "Исследования",
-
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
   "contact": {
     "title": "Контакты ↗",
     "type": "page",
-    "href": "https://opia-world.com",
-    "newWindow": true
+    "href": "x5@opia-world.com"
   }
 }
