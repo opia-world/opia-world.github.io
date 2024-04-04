@@ -1,18 +1,45 @@
-import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import React from "react";
+import { DocsThemeConfig } from "nextra-theme-docs";
+import Image from "next/image";
+import logoUrl from "./public/logo.png";
+import faviconUrl from "./public/logo.png";
+import { useRouter } from "next/router";
+
+const logo = (
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "row",
+      alignItems: "center",
+      gap: "8px",
+    }}
+  >
+    <Image src={logoUrl} width={42} height={42} alt="Humanode" />
+    <div>OPIA WORLD</div>
+  </div>
+);
+
+const head = (
+  <>
+    <link rel="icon" href={faviconUrl.src} type="image/png" />
+  </>
+);
 
 const config: DocsThemeConfig = {
-  logo: <span>OPIA WORLD</span>,
-  //project: {
-  //  link: 'https://github.com/shuding/nextra-docs-template',
-  //},
-  //chat: {
-  //  link: 'https://discord.com',
-  // },
-  //docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
-  footer: {
-    text: 'Opia World Documentation',
+  logo,
+  head,
+  docsRepositoryBase:
+    "https://github.com/opia-world/opia-world.github.io",
+  useNextSeoProps() {
+    const { asPath } = useRouter();
+    const title = "Opia World Docs";
+    return {
+      titleTemplate: asPath === "/" ? title : `%s - ${title}`,
+    };
   },
-}
+  footer: {
+    text: "Opia World Documentation",
+  },
+};
 
-export default config
+export default config;
