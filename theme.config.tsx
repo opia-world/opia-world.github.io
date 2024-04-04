@@ -14,7 +14,7 @@ const logo = (
       gap: "8px",
     }}
   >
-    <Image src={logoUrl} width={42} height={42} alt="Humanode" />
+    <Image src={logoUrl} width={42} height={42} alt="Opia World" />
     <div>OPIA WORLD</div>
   </div>
 );
@@ -29,7 +29,7 @@ const config: DocsThemeConfig = {
   logo,
   head,
   docsRepositoryBase:
-    "https://github.com/opia-world/opia-world.github.io/blob/master",
+    "https://github.com/opia-world/opia-world.github.io/tree/master",
   useNextSeoProps() {
     const { asPath } = useRouter();
     const title = "Opia World Docs";
