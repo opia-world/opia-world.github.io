@@ -1,5 +1,14 @@
 {
   "index": "О нас",
+  "market": "Рынок",
+  "monetization": "Монетизация",
+  "scenarios": "Пользовтельские сценарии",
+  "cases_and_metrics": "Кейсы и метрики",
+  "scaling": "Масштабирование",
+  "roadmap": "Дорожная карта",
+  "team": "Команда",
+  "economics": "Экономика",
+  "contacts": "Контакты",
   "research": "Исследования",
   "contact": {
     "title": "Контакты ↗",
