@@ -14,20 +14,20 @@ const logo = (
       gap: "8px",
     }}
   >
-    <Image src={logoUrl} width={42} height={42} alt="Opia World" />
+    {/* <Image src={logoUrl} width={42} height={42} alt="Opia World" /> */}
     <div>OPIA WORLD</div>
   </div>
 );
 
-const head = (
+/*const head = (
   <>
     <link rel="icon" href={faviconUrl.src} type="image/png" />
   </>
-);
+); */
 
 const config: DocsThemeConfig = {
   logo,
-  head,
+  //head,
   docsRepositoryBase:
     "https://github.com/opia-world/opia-world.github.io/tree/master",
   useNextSeoProps() {
