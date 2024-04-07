@@ -1,6 +1,7 @@
 import banner from "../public/banner.png";
 import Banner from "../components/Banner";
 import { Cards, Card } from "nextra/components";
+import Image from 'next/image'
 
 <Banner src={banner} />
 
@@ -12,11 +13,13 @@ import { Cards, Card } from "nextra/components";
 
 ### Основное
 
-КАРТИНКА МЕТРИКИ
+
+<Image src="/13.jpg" alt="Основное" width={840} height={300} /> 
 
 ### Миссия
 
-КАРТИНКА МИССИЙ
+<Image src="/14.png" alt="Миссия" width={840} height={300} /> 
+
 
 ### Почему нам доверяют?
 
@@ -34,8 +37,6 @@ import { Cards, Card } from "nextra/components";
 - Интеграция с любым программным обеспечением, которое позволит нам автоматизировать рутинные процессы.
 - Развитие Telegram.
 
-ТЕКСТ ДЛЯ ССЫЛКИ НА ИССЛЕДОВАНИЯ
-
 <Cards>
-  <Card title="Исследования" href="research/trends/audience_flow" />
+  <Card title="Ознакомиться с исследованиями" href="research/trends/audience_flow" />
 </Cards>
