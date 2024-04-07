@@ -13,8 +13,13 @@
   "contacts": "Контакты",
   "research": "Исследования",
   "contact": {
-    "title": "Контакты ↗",
+    "title": "Mail ↗",
     "type": "page",
     "href": "mailto:x5@opia-world.com"
+  },
+  "contact_tg": {
+    "title": "Telegram ↗",
+    "type": "page",
+    "href": "t.me/OpiaWorld"
   }
 }
