@@ -54,7 +54,39 @@ Z --> C;
 
 <details>
     <summary>Схема кейса</summary>
-    <Image src="/tables.png" alt="Схема кейса 'Столики'" width={840} height={300} /> 
+
+```mermaid
+sequenceDiagram
+    actor User
+    participant Bot
+    participant AdminPanel
+    participant POS
+    actor Administrator
+
+    User ->> User: Сканирование QR кода
+    User ->> Bot: Нажать "Сделать заказ"
+    Bot ->> Bot: Открыть MiniApp
+    Bot ->> User: Каталог
+    User ->> User: Оформление корзины
+    User ->> Bot: Нажать "Оформить"
+    Bot ->> AdminPanel: Новый заказ
+    Bot ->> POS: Создать заказ в POS
+    
+    note over User, Administrator: Приготовление, обслуживание
+
+    User ->> Bot: Нажать "Оплатить заказ"
+    Bot ->> User: Страница оплаты
+    User ->> User: Оплата
+    User ->> Bot: Отзыв
+    
+    Bot ->> Administrator: Отзыв
+
+    note over User, Administrator: Довольный клиент освободил стол, сэкономив свое драгоценное время
+
+    Administrator ->> POS: Закрыть заказ
+    POS ->> AdminPanel: Закрыть заказ
+```
+
 </details>
 
 ##### Кейс "Доставка/Самовывоз"
