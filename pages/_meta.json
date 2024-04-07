@@ -20,6 +20,6 @@
   "contact_tg": {
     "title": "Telegram ↗",
     "type": "page",
-    "href": "t.me/OpiaWorld"
+    "href": "tg://resolve?domain=OpiaWorld"
   }
 }
