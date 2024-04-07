@@ -100,7 +100,42 @@ sequenceDiagram
 
 <details>
     <summary>Схема кейса</summary>
-    <Image src="/delivery.png" alt="Схема кейса 'Доставка'" width={840} height={300} /> 
+
+```mermaid
+sequenceDiagram
+    actor User
+    participant Bot
+    participant AdminPanel
+    participant POS
+    participant Cook
+    actor Administrator
+
+    User ->> User: Переход в бота (Ссылка, QR)
+    User ->> Bot: Нажать "Сделать заказ"
+    Bot ->> Bot: Открыть MiniApp
+    Bot ->> User: Каталог
+    User ->> User: Оформление корзины
+    User ->> Bot: Нажать "Оформить"
+    User ->> Bot: Нажать "Оплатить заказ"
+    Bot ->> User: Страница оплаты
+    User ->> Bot: Оплата
+    Bot ->> AdminPanel: Новый заказ
+    Bot ->> POS: Создать заказ в POS
+    POS ->> Cook: Новый заказ
+    Cook ->> Cook: Приготовление
+    Cook ->> POS: Заказ приготовлен
+    POS ->> Bot: Заказ приготовлен
+    Bot ->> User: Ваш заказ готов(самовывоз)|в пути(доставка) 
+
+    note over User, Administrator: Ожидания самовывоза или доставка
+    
+    User ->> Bot: Отзыв
+    Bot ->> Administrator: Отзыв
+
+    Administrator ->> POS: Закрыть заказ
+    POS ->> AdminPanel: Закрыть заказ
+```
+
 </details>
 
 ### Opia Invoice
