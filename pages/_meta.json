@@ -10,6 +10,9 @@
   "integrations": "Интеграции",
   "partners": "Партнеры",
   "team": "Команда",
+  "---Paisahg1": {
+    "type": "separator"
+  },
   "research": "Исследования",
   "contact": {
     "title": "Mail ↗",
