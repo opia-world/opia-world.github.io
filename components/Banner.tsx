@@ -12,9 +12,9 @@ const Banner: React.FC<Props> = ({ src }) => (
     style={{
       display: "block",
       objectFit: "cover",
-      maxHeight: "3600px",
+      maxHeight: "300",
       objectPosition: "50% 35%",
-      maxWidth: "840px"
+      maxWidth: "840"
     }}
   />
 );
