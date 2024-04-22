@@ -34,25 +34,6 @@ import { Callout } from "nextra/components"
 </Callout>
 ---
 
-
-<input type="text" placeholder="Введите значение" name="value" size="14"></input>
-<br></br>
-import { useState } from 'react'
- 
-export function Counter({ children }) {
-  const [count, setCount] = useState(0)
-  return (
-    <button onClick={() => setCount(count + 1)}>
-      {children}
-      {count}
-    </button>
-  ) 
-}
-
-<Counter>**Clicks**: </Counter>
-
-
-
 ### Если оставить все, как есть
 *В текущем CAC включены дополнительные затраты, связанные с разработкой качественного масштабируемого продукта*
 
